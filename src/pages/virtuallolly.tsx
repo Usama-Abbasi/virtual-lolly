@@ -23,7 +23,7 @@ query MyQuery {
 export default function VirtualLolly() {
     const { data, loading, error } = useQuery(fetchLollies);
     if (loading) {
-        return <h1>Loading</h1>
+        return <h1>Loading...</h1>
     }
     return (
         <Router basepath="/virtuallolly">
