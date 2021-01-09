@@ -11,7 +11,7 @@ module.exports = {
       options: {
         typeName: "Lolly",
         fieldName: "lollies",
-        url: 'https://usama-bootcamp-virtual-lolly.netlify.app/.netlify/functions/virtual_lolly',
+        url: `${baseUrl}/.netlify/functions/virtual_lolly`,
       },
     },
   ],
