@@ -39,11 +39,8 @@ const useStyles = makeStyles((theme: Theme) =>
         }
     }));
 
-export interface SendLollyProps {
 
-}
-
-const CreateNewLolly: React.SFC<SendLollyProps> = () => {
+const CreateNewLolly = () => {
 
     const [top, setTop] = useState('#6b6bde');
     const [middle, setMiddle] = useState('#4ac383');
