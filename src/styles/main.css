@@ -1,0 +1,128 @@
+body {
+    text-align: center;
+    color: #fff;
+    background-color: #21212b;
+    font-family: cursive;
+  }
+  h1 {
+    font-size: 56px;
+    
+  }
+  
+  .container {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .lollies {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .lollies .lollipop {
+    height: 300px;
+  }
+  .lollyFormPage .lollipop {
+    height: 500px;
+    padding: 20px;
+  }
+  .lollyFormPage {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .lollyFlavour {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  input {
+    width: 330px;
+    height: 40px;
+    color: #ffffff;
+    background-color: #222222;
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+  }
+  textarea {
+    color: #ffffff;
+    background-color: #222222;
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+  }
+  .lollyforms {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #222222;
+    padding: 50px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .colorPicker {
+    width: 60px;
+    height: 60px;
+    margin-top: -10px;
+    margin-left: -10px;
+  }
+  .colorPickerLabel {
+    width: 40px;
+    border-radius: 50%;
+    height: 40px;
+    margin-bottom: 45px;
+    overflow: hidden;
+  }
+  
+  .inputFields {
+    margin: 0 -45px 0 100px;
+  }
+  .createButton {
+    margin: 10px;
+    padding: 5px 15px;
+    cursor: pointer;
+  }
+  .YourLoollyLink {
+    margin: 0 -45px 0 100px;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  .YourLoolly {
+    width: 600px;
+    height: 300px;
+    margin: 0 -45px 0 100px;
+    padding: 20px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #15151b;
+  }
+  .desc {
+    margin: 0 -45px 0 100px;
+    padding: 20px;
+  }
+  
+  .link {
+    border: 2px solid #fff;
+    background-color: #000;
+    color: aliceblue;
+    padding: 10px;
+  }
+  
+  .reciepentName, .message{
+    display: flex;
+    justify-self: flex-start;
+   
+  }
+  
+  .senderName {
+    display: flex;
+    margin-left: 20%;
+  }
+  

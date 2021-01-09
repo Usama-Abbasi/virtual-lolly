@@ -1,10 +1,18 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.com/docs/gatsby-config/
- */
+var baseUrl;
+process.env.NODE_ENV==="development"?baseUrl="http://localhost:8888":"https://virtual-lolly-project12e.netlify.app"
 
 module.exports = {
   /* Your site config here */
-  plugins: [],
+  
+  plugins: [
+    "gatsby-plugin-typescript",
+    {
+      resolve: "gatsby-source-graphql",
+      options: {
+        typeName: "Lolly",
+        fieldName: "lollies",
+        url: `${baseUrl}/.netlify/functions/virtual_lolly`,
+      },
+    },
+  ],
 }
