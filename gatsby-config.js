@@ -6,13 +6,13 @@ module.exports = {
   
   plugins: [
     "gatsby-plugin-typescript",
-    {
-      resolve: "gatsby-source-graphql",
-      options: {
-        typeName: "Lolly",
-        fieldName: "lollies",
-        url: `${baseUrl}/.netlify/functions/virtual_lolly`,
-      },
-    },
+    // {
+    //   resolve: "gatsby-source-graphql",
+    //   options: {
+    //     typeName: "Lolly",
+    //     fieldName: "lollies",
+    //     url: `${baseUrl}/.netlify/functions/virtual_lolly`,
+    //   },
+    // },
   ],
 }
