@@ -3,7 +3,7 @@ import Header from '..//component/Header';
 import Lolly from '..//component/lolly';
 import { navigate, Link } from "gatsby"
 export default function YourLolly({pageContext}) {
-    console.log(pageContext);
+    // console.log(pageContext);
     return (
         <div className="container">
       <Header />
